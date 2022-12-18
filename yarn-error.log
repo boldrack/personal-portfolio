@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/taiwoajiboye/.nvm/versions/node/v19.0.1/bin/node /Users/taiwoajiboye/.nvm/versions/node/v19.0.1/bin/yarn add react react-dom next typescript
+
+PATH: 
+  /Users/taiwoajiboye/.nvm/versions/node/v19.0.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.0.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/next/-/next-13.0.6.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/taiwoajiboye/.nvm/versions/node/v19.0.1/lib/node_modules/yarn/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:831:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:547:8)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "personal-portfolio",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
